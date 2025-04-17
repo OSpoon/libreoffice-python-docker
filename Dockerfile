@@ -49,4 +49,3 @@ ENV LIBREOFFICE_PATH=/usr/bin/libreoffice \
 RUN mkdir -p /app/input /app/output
 
 COPY convert.py /app/
-COPY input/ /app/input/
